@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "LLM_vs_LR_stance_detection"
+version = "0.1.0"
+description = ""
+authors = ["Thomas Beukema <thomas@thomasbeukema.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+nltk = "^3.9.1"
+statsmodels = "^0.14.4"
+openai = "^1.51.2"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
